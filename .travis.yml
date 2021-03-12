@@ -10,24 +10,25 @@ addons:
 
 script:
     - pip3 install --upgrade youtube-dl
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_21%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-21/4270806
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_22%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-22/4270807
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_23%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-23/4278921
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_24%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-24/4278922
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_25%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-25/4278923
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_26%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-26/4278926
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_27%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-27/4278927
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_28%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-28/4278928
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_29%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-29/4278929
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_30%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-30/4278930
-    - curl -T ./Capitulo_21.mp4 http://transfer.sh
-    - curl -T ./Capitulo_22.mp4 http://transfer.sh
-    - curl -T ./Capitulo_23.mp4 http://transfer.sh
-    - curl -T ./Capitulo_24.mp4 http://transfer.sh
-    - curl -T ./Capitulo_25.mp4 http://transfer.sh
-    - curl -T ./Capitulo_26.mp4 http://transfer.sh
-    - curl -T ./Capitulo_27.mp4 http://transfer.sh
-    - curl -T ./Capitulo_28.mp4 http://transfer.sh
-    - curl -T ./Capitulo_29.mp4 http://transfer.sh
-    - curl -T ./Capitulo_30.mp4 http://transfer.sh
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_1.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-1/4264185
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_2.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-2/4264187
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_3.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-3/4264188
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_4.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-4/4264189
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_5.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-5/4264190
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_6.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-6/4264191
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_7.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-7/4264192
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_8.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-8/4264193
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_9.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-9/4264194
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_10.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-10/4264195
+    - curl -T ./Capitulo_1.mp4 http://transfer.sh
+    - curl -T ./Capitulo_2.mp4 http://transfer.sh
+    - curl -T ./Capitulo_3.mp4 http://transfer.sh
+    - curl -T ./Capitulo_4.mp4 http://transfer.sh
+    - curl -T ./Capitulo_5.mp4 http://transfer.sh
+    - curl -T ./Capitulo_6.mp4 http://transfer.sh
+    - curl -T ./Capitulo_7.mp4 http://transfer.sh
+    - curl -T ./Capitulo_8.mp4 http://transfer.sh
+    - curl -T ./Capitulo_9.mp4 http://transfer.sh
+    - curl -T ./Capitulo_10.mp4 http://transfer.sh
+
 
