@@ -10,8 +10,23 @@ addons:
 
 script:
     - pip3 install --upgrade youtube-dl
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_1.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-1/4264185
-    - ls
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_1%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-1/4264185
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_2%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-2/4264187
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_3%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-3/4264188
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_4%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-4/4264189
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_5%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-5/4264190
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_6%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-6/4264191
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_7%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-7/4264192
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_8%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-8/4264193
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_9%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-9/4264194
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_10%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-10/4264195
     - curl -T ./Capitulo_1.mp4 http://transfer.sh
-    - curl -T ./Capitulo_1.es.srt http://transfer.sh
-  
+    - curl -T ./Capitulo_2.mp4 http://transfer.sh
+    - curl -T ./Capitulo_3.mp4 http://transfer.sh
+    - curl -T ./Capitulo_4.mp4 http://transfer.sh
+    - curl -T ./Capitulo_5.mp4 http://transfer.sh
+    - curl -T ./Capitulo_6.mp4 http://transfer.sh
+    - curl -T ./Capitulo_7.mp4 http://transfer.sh
+    - curl -T ./Capitulo_8.mp4 http://transfer.sh
+    - curl -T ./Capitulo_9.mp4 http://transfer.sh
+    - curl -T ./Capitulo_10.mp4 http://transfer.sh
