@@ -12,4 +12,6 @@ script:
     - pip3 install --upgrade youtube-dl
     - youtube-dl --write-sub --convert-subs=srt -o "%(title)s.%(ext)s" https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-1/4264185
     - ls
+    - mv "Capítulo 1.mp4" "Capitulo_1.mp4" && mv "Capítulo 1.es.srt" "Capitulo_1.srt"
+    - curl -T ./Capitulo_1.mp4 http://transfer.sh
   
