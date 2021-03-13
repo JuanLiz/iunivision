@@ -10,25 +10,23 @@ addons:
 
 script:
     - pip3 install --upgrade youtube-dl
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_40.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-40/4287206
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_41.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-41/4287207
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_42.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-42/4287208
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_43.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-43/4287209
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_44.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-44/4287210
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_45.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-45/4287211
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_46.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-46/4294970
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_47.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-47/4294971
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_48.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-48/4294972
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_49.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-49/4294973
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_50.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-50/4294974
-    - curl -T ./Capitulo_40.mp4 http://transfer.sh
-    - curl -T ./Capitulo_41.mp4 http://transfer.sh
-    - curl -T ./Capitulo_42.mp4 http://transfer.sh
-    - curl -T ./Capitulo_43.mp4 http://transfer.sh
-    - curl -T ./Capitulo_44.mp4 http://transfer.sh
-    - curl -T ./Capitulo_45.mp4 http://transfer.sh
-    - curl -T ./Capitulo_46.mp4 http://transfer.sh
-    - curl -T ./Capitulo_47.mp4 http://transfer.sh
-    - curl -T ./Capitulo_48.mp4 http://transfer.sh
-    - curl -T ./Capitulo_49.mp4 http://transfer.sh
-    - curl -T ./Capitulo_50.mp4 http://transfer.sh
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_51.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-51/4294975
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_52.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-52/4294976
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_53.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-53/4294977
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_54.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-54/4294978
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_55.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-55/4294979
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_56.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-56/4302403
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_57.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-57/4302404
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_58.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-58/4302408
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_59.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-59/4302409
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_60.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-60/4302410
+    - curl -T ./Capitulo_51.mp4 http://transfer.sh
+    - curl -T ./Capitulo_52.mp4 http://transfer.sh
+    - curl -T ./Capitulo_53.mp4 http://transfer.sh
+    - curl -T ./Capitulo_54.mp4 http://transfer.sh
+    - curl -T ./Capitulo_55.mp4 http://transfer.sh
+    - curl -T ./Capitulo_56.mp4 http://transfer.sh
+    - curl -T ./Capitulo_57.mp4 http://transfer.sh
+    - curl -T ./Capitulo_58.mp4 http://transfer.sh
+    - curl -T ./Capitulo_59.mp4 http://transfer.sh
+    - curl -T ./Capitulo_60.mp4 http://transfer.sh
