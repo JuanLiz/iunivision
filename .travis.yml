@@ -21,15 +21,12 @@ script:
     - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_68.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-68/4310038
     - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_69.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-69/4310039
     - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_70.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-70/4310040
-    - curl -T ./Capitulo_60.mp4 http://transfer.sh
-    - curl -T ./Capitulo_61.mp4 http://transfer.sh
-    - curl -T ./Capitulo_62.mp4 http://transfer.sh
-    - curl -T ./Capitulo_63.mp4 http://transfer.sh
-    - curl -T ./Capitulo_64.mp4 http://transfer.sh
+#    - curl -T ./Capitulo_60.mp4 http://transfer.sh
+#    - curl -T ./Capitulo_62.mp4 http://transfer.sh
     - curl -T ./Capitulo_65.mp4 http://transfer.sh
     - curl -T ./Capitulo_66.mp4 http://transfer.sh
-    - curl -T ./Capitulo_67.mp4 http://transfer.sh
+#    - curl -T ./Capitulo_67.mp4 http://transfer.sh
     - curl -T ./Capitulo_68.mp4 http://transfer.sh
     - curl -T ./Capitulo_69.mp4 http://transfer.sh
-    - curl -T ./Capitulo_70.mp4 http://transfer.sh
+#    - curl -T ./Capitulo_70.mp4 http://transfer.sh
     
