@@ -32,3 +32,4 @@ script:
     - curl -T ./Capitulo_68.mp4 http://transfer.sh
     - curl -T ./Capitulo_69.mp4 http://transfer.sh
     - curl -T ./Capitulo_70.mp4 http://transfer.sh
+  
