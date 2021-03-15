@@ -10,9 +10,9 @@ addons:
 
 script:
     - pip3 install --upgrade youtube-dl
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_4.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-4/4264189
-#    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_5.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-5/4264190
-#    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_10.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-10/4264195
+#    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_4.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-4/4264189
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_5.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-5/4264190
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_10.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-10/4264195
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_19.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-19/4270804
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_20.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-20/4270805
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_21.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-21/4270806
@@ -22,9 +22,9 @@ script:
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_60.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-60/4302410
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_62.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-62/4302413
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_67.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-67/4310037
-    - curl -T ./Capitulo_4.mp4 http://transfer.sh
-#    - curl -T ./Capitulo_5.mp4 http://transfer.sh
-#    - curl -T ./Capitulo_10.mp4 http://transfer.sh
+#    - curl -T ./Capitulo_4.mp4 http://transfer.sh
+    - curl -T ./Capitulo_5.mp4 http://transfer.sh
+    - curl -T ./Capitulo_10.mp4 http://transfer.sh
 #    - curl -T ./Capitulo_19.mp4 http://transfer.sh
 #    - curl -T ./Capitulo_20.mp4 http://transfer.sh
 #    - curl -T ./Capitulo_21.mp4 http://transfer.sh
@@ -33,4 +33,4 @@ script:
 #    - curl -T ./Capitulo_30.mp4 http://transfer.sh
 #    - curl -T ./Capitulo_60.mp4 http://transfer.sh
 #    - curl -T ./Capitulo_62.mp4 http://transfer.sh
-#S    - curl -T ./Capitulo_67.mp4 http://transfer.sh    
+#    - curl -T ./Capitulo_67.mp4 http://transfer.sh    
