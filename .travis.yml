@@ -10,9 +10,8 @@ addons:
 
 script:
     - pip3 install --upgrade youtube-dl
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_10.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-10/4264195
-#    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_19.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-19/4270804
-#    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_20.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-20/4270805
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_19.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-19/4270804
+    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_20.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-20/4270805
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_21.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-21/4270806
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_22.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-22/4270807
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_25.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-25/4278923
@@ -20,9 +19,8 @@ script:
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_60.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-60/4302410
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_62.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-62/4302413
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_67.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-67/4310037
-    - curl -T ./Capitulo_10.mp4 http://transfer.sh
-#    - curl -T ./Capitulo_19.mp4 http://transfer.sh
-#    - curl -T ./Capitulo_20.mp4 http://transfer.sh
+    - curl -T ./Capitulo_19.mp4 http://transfer.sh
+    - curl -T ./Capitulo_20.mp4 http://transfer.sh
 #    - curl -T ./Capitulo_21.mp4 http://transfer.sh
 #    - curl -T ./Capitulo_22.mp4 http://transfer.sh
 #    - curl -T ./Capitulo_25.mp4 http://transfer.sh
