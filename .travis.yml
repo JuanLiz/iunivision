@@ -10,14 +10,12 @@ addons:
 
 script:
     - pip3 install --upgrade youtube-dl
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_21.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-21/4270806
     - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_22.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-22/4270807
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_25.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-25/4278923
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_30.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-30/4278930
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_60.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-60/4302410
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_62.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-62/4302413
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_67.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-67/4310037
-    - curl -T ./Capitulo_21.mp4 http://transfer.sh
     - curl -T ./Capitulo_22.mp4 http://transfer.sh
 #    - curl -T ./Capitulo_25.mp4 http://transfer.sh
 #    - curl -T ./Capitulo_30.mp4 http://transfer.sh
