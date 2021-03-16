@@ -10,9 +10,8 @@ addons:
 
 script:
     - pip3 install --upgrade youtube-dl
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_60.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-60/4302410
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_62.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-62/4302413
-    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_67.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-67/4310037
-    - curl -T ./Capitulo_60.mp4 http://transfer.sh
-    - curl -T ./Capitulo_62.mp4 http://transfer.sh
-    - curl -T ./Capitulo_67.mp4 http://transfer.sh    
+#    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_60.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-60/4302410
+    - youtube-dl -o 'Historia_del_Cine_Colombiano_-_Capitulo_4_-_La_Tragedia_del_Sonido.%(ext)s' https://www.youtube.com/watch?v=9xrhf537aHc&list=PL4lMsVD8f4PTzCP_zT0A89GPX1loRUb0g&index=4
+ #   - curl -T ./Capitulo_60.mp4 http://transfer.sh
+    - curl -T ./Historia_del_Cine_Colombiano_-_Capitulo_4_-_La_Tragedia_del_Sonido.mp4 http://transfer.sh
+  
