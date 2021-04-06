@@ -10,11 +10,6 @@ addons:
 
 script:
 #    - pip3 install --upgrade youtube-dl
-     - pip3 install --upgrade gdown
-     - gdown https://drive.google.com/uc?id=1W-mLb0wWUjeYhcyir3HVEJemb79B6fsB
-     - travis_wait 40 ffmpeg -i "Moreno Merchan Herrera Galindo Moreno Hernandez.mp4" -vcodec libx264 -crf 24 "Contrato Social 501T.mp4"
-     - ls -hl 
-     - curl -T "Contrato Social 501T.mp4" http://transfer.sh
 #    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_60.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-60/4302410
 #    - curl -T ./Capitulo_60.mp4 http://transfer.sh
   
