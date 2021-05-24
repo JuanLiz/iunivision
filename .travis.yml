@@ -10,6 +10,6 @@ addons:
 
 script:
     - pip3 install --upgrade youtube-dl
-    - youtube-dl --geo-bypass-country ZA https://www.viu.com/ott/za/en/all/video-english-drama-tv_shows-ubettina_wethu_episode_1-1165863766?containerId=playlist-26271168
+    - youtube-dl --geo-bypass-country ZA https://www.viu.com/ott/za/en/all/playlist-ubettina_wethu-playlist-26271168
 #    - curl -T ./Capitulo_60.mp4 http://transfer.sh
   
