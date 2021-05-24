@@ -10,6 +10,6 @@ addons:
 
 script:
 #    - pip3 install --upgrade youtube-dl
-#    - youtube-dl --write-sub --convert-subs=srt -o 'Capitulo_60.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-60/4302410
+    - youtube-dl --geo-bypass-country ZA https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-60/4302410
 #    - curl -T ./Capitulo_60.mp4 http://transfer.sh
   
