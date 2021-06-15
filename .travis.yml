@@ -27,4 +27,3 @@ script:
     - curl -T ./Capitulo_80.mp4 http://transfer.sh
 #    - yt-dlp -o 'Capitulo_XX.%(ext)s' URL
 #    - curl -T ./Capitulo_XX.mp4 http://transfer.sh
-  
