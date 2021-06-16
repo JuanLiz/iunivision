@@ -19,7 +19,7 @@ script:
     - yt-dlp -o 'Capitulo_109.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-109/4343315
     - yt-dlp -o 'Capitulo_110.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-110/4343316
     - yt-dlp -o 'Capitulo_111.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-111/4343317
-    - yt-dlp -o 'Capitulo_112.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-112/4343319
+#    - yt-dlp -o 'Capitulo_112.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-112/4343319
     - yt-dlp -o 'Capitulo_113.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-113/4343320
     - yt-dlp -o 'Capitulo_114.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-114/4343321
     - yt-dlp -o 'Capitulo_115.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-115/4343322
@@ -31,7 +31,7 @@ script:
     - curl -T Capitulo_109.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_109.mp4
     - curl -T Capitulo_110.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_110.mp4
     - curl -T Capitulo_111.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_111.mp4
-    - curl -T Capitulo_112.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_112.mp4
+#    - curl -T Capitulo_112.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_112.mp4
     - curl -T Capitulo_113.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_113.mp4
     - curl -T Capitulo_114.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_114.mp4
     - curl -T Capitulo_115.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_115.mp4
