@@ -11,30 +11,39 @@ addons:
 
 script:
     - python3 -m pip install --upgrade yt-dlp
-    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/
-    - yt-dlp -o 'Capitulo_92.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-92/4325885
-    - yt-dlp -o 'Capitulo_93.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-93/4325886
-    - yt-dlp -o 'Capitulo_94.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-94/4325887
-    - yt-dlp -o 'Capitulo_95.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-95/4325888
-    - yt-dlp -o 'Capitulo_96.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-96/4325889
-    - yt-dlp -o 'Capitulo_97.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-97/4333949
-    - yt-dlp -o 'Capitulo_98.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-98/4333950
-    - yt-dlp -o 'Capitulo_99.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-99/4333951
-    - yt-dlp -o 'Capitulo_100.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-100/4333952
-    - yt-dlp -o 'Capitulo_101.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-101/4333953
-    - yt-dlp -o 'Capitulo_102.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-102/4333954
-    - yt-dlp -o 'Capitulo_103.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-103/4333955
-    - curl -T Capitulo_92.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_92.mp4
-    - curl -T Capitulo_93.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_93.mp4
-    - curl -T Capitulo_94.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_94.mp4
-    - curl -T Capitulo_95.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_95.mp4
-    - curl -T Capitulo_96.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_96.mp4
-    - curl -T Capitulo_97.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_97.mp4
-    - curl -T Capitulo_98.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_98.mp4
-    - curl -T Capitulo_99.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_99.mp4
-    - curl -T Capitulo_100.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_100.mp4
-    - curl -T Capitulo_101.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_101.mp4
-    - curl -T Capitulo_102.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_102.mp4
-    - curl -T Capitulo_103.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_103.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_74 -o Capitulo_74.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_75 -o Capitulo_75.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_76 -o Capitulo_76.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_77 -o Capitulo_77.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_78 -o Capitulo_78.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_79 -o Capitulo_79.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_80 -o Capitulo_80.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_81 -o Capitulo_81.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_82 -o Capitulo_82.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_83 -o Capitulo_83.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_84 -o Capitulo_84.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_85 -o Capitulo_85.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_86 -o Capitulo_86.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_87 -o Capitulo_87.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_88 -o Capitulo_88.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_89 -o Capitulo_89.mp4
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_90 -o Capitulo_90.mp4
+    - curl -T Capitulo_74.mp4 http://transfer.sh
+    - curl -T Capitulo_75.mp4 http://transfer.sh
+    - curl -T Capitulo_76.mp4 http://transfer.sh
+    - curl -T Capitulo_77.mp4 http://transfer.sh
+    - curl -T Capitulo_78.mp4 http://transfer.sh
+    - curl -T Capitulo_79.mp4 http://transfer.sh
+    - curl -T Capitulo_80.mp4 http://transfer.sh
+    - curl -T Capitulo_81.mp4 http://transfer.sh
+    - curl -T Capitulo_82.mp4 http://transfer.sh
+    - curl -T Capitulo_83.mp4 http://transfer.sh
+    - curl -T Capitulo_84.mp4 http://transfer.sh
+    - curl -T Capitulo_85.mp4 http://transfer.sh
+    - curl -T Capitulo_86.mp4 http://transfer.sh
+    - curl -T Capitulo_87.mp4 http://transfer.sh
+    - curl -T Capitulo_88.mp4 http://transfer.sh
+    - curl -T Capitulo_89.mp4 http://transfer.sh
+    - curl -T Capitulo_90.mp4 http://transfer.sh
 
 #    - yt-dlp -o 'Capitulo_XX.%(ext)s' URL
