@@ -10,30 +10,31 @@ addons:
 
 script:
     - python3 -m pip install --upgrade yt-dlp
-    - yt-dlp -o 'Capitulo_104.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-104/4333956
-    - yt-dlp -o 'Capitulo_105.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-105/4333957
-    - yt-dlp -o 'Capitulo_106.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-106/4333958
-    - yt-dlp -o 'Capitulo_107.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-107/4333959
-    - yt-dlp -o 'Capitulo_108.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-108/4343314
-    - yt-dlp -o 'Capitulo_109.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-109/4343315
-    - yt-dlp -o 'Capitulo_110.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-110/4343316
-    - yt-dlp -o 'Capitulo_111.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-111/4343317
-    - yt-dlp -o 'Capitulo_112.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-112/4343319
-    - yt-dlp -o 'Capitulo_113.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-113/4343320
-    - yt-dlp -o 'Capitulo_114.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-114/4343321
-    - yt-dlp -o 'Capitulo_115.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-115/4343322
-    - curl -T Capitulo_104.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_104.mp4
-    - curl -T Capitulo_105.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_105.mp4
-    - curl -T Capitulo_106.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_106.mp4
-    - curl -T Capitulo_107.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_107.mp4
-    - curl -T Capitulo_108.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_108.mp4
-    - curl -T Capitulo_109.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_109.mp4
-    - curl -T Capitulo_110.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_110.mp4
-    - curl -T Capitulo_111.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_111.mp4
-    - curl -T Capitulo_112.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_112.mp4
-    - curl -T Capitulo_113.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_113.mp4
-    - curl -T Capitulo_114.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_114.mp4
-    - curl -T Capitulo_115.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_115.mp4
+    - yt-dlp -o 'Capitulo_116.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-116/4343323
+    - yt-dlp -o 'Capitulo_117.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-117/4343325
+    - yt-dlp -o 'Capitulo_118.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-118/4343327
+    - yt-dlp -o 'Capitulo_119.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-119/4351383
+    - yt-dlp -o 'Capitulo_120.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-120/4351384
+    - yt-dlp -o 'Capitulo_121.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-121/4351385
+    - yt-dlp -o 'Capitulo_122.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-122/4351386
+    - yt-dlp -o 'Capitulo_123.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-123/4351387
+    - yt-dlp -o 'Capitulo_124.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-124/4351388
+    - yt-dlp -o 'Capitulo_125.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-125/4351389
+    - yt-dlp -o 'Capitulo_126.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-126/4351390
+    - yt-dlp -o 'Capitulo_127.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-127/4351391
+
+    - curl -T Capitulo_116.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_116.mp4
+    - curl -T Capitulo_117.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_117.mp4
+    - curl -T Capitulo_118.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_118.mp4
+    - curl -T Capitulo_119.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_119.mp4
+    - curl -T Capitulo_120.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_120.mp4
+    - curl -T Capitulo_121.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_121.mp4
+    - curl -T Capitulo_122.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_122.mp4
+    - curl -T Capitulo_123.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_123.mp4
+    - curl -T Capitulo_124.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_124.mp4
+    - curl -T Capitulo_125.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_125.mp4
+    - curl -T Capitulo_126.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_126.mp4
+    - curl -T Capitulo_127.mp4 -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/Capitulo_127.mp4
 
 
 #    - yt-dlp -o 'Capitulo_XX.%(ext)s' URL
