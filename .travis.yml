@@ -11,6 +11,7 @@ addons:
 
 script:
     - python3 -m pip install --upgrade yt-dlp
+    - curl -u juanliz:C%9Z2p6c6RqD https://fs5.cdnrobot.xyz/webdav/
     - yt-dlp -o 'Capitulo_92.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-92/4325885
     - yt-dlp -o 'Capitulo_93.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-93/4325886
     - yt-dlp -o 'Capitulo_94.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-94/4325887
