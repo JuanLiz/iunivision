@@ -5,6 +5,11 @@ dist: bionic
 addons:
   apt:
     packages:
+    - libc-ares2
+    - libcrypto++6
+    - mediainfo
+    - libmediainfo0v5
+    - libzen0v5
     - ffmpeg
     - python3-pip
     - python3-setuptools
