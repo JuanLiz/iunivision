@@ -10,20 +10,18 @@ addons:
 
 script:
     - python3 -m pip install --upgrade yt-dlp
-    - yt-dlp -o 'Capitulo_74.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-74/4316899
     - yt-dlp -o 'Capitulo_75.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-75/4316900
-    - yt-dlp -o 'Capitulo_76.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-76/4316901
-    - yt-dlp -o 'Capitulo_77.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-77/4316902
-    - yt-dlp -o 'Capitulo_78.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-78/4316903
-    - yt-dlp -o 'Capitulo_79.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-79/4316904
-    - yt-dlp -o 'Capitulo_80.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-80/4316905
-
-    - curl -T ./Capitulo_74.mp4 http://transfer.sh
     - curl -T ./Capitulo_75.mp4 http://transfer.sh
+    - yt-dlp -o 'Capitulo_76.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-76/4316901
     - curl -T ./Capitulo_76.mp4 http://transfer.sh
+    - yt-dlp -o 'Capitulo_77.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-77/4316902
     - curl -T ./Capitulo_77.mp4 http://transfer.sh
+    - yt-dlp -o 'Capitulo_78.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-78/4316903
     - curl -T ./Capitulo_78.mp4 http://transfer.sh
+    - yt-dlp -o 'Capitulo_79.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-79/4316904
     - curl -T ./Capitulo_79.mp4 http://transfer.sh
+    - yt-dlp -o 'Capitulo_80.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-80/4316905
     - curl -T ./Capitulo_80.mp4 http://transfer.sh
 #    - yt-dlp -o 'Capitulo_XX.%(ext)s' URL
 #    - curl -T ./Capitulo_XX.mp4 http://transfer.sh
+  
