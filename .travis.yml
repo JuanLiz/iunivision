@@ -19,20 +19,18 @@ script:
     - wget http://transfer.sh/1QMFl17/megacmd.deb
     - sudo dpkg -i megacmd.deb
     - mega-login $email $pass
-    - yt-dlp -o 'Capitulo_119.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-119/4351383
-    - mega-put Capitulo_119.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_120.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-120/4351384
-    - mega-put Capitulo_120.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_120.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-120/4351384
-    - mega-put Capitulo_120.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_121.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-121/4351385
-    - mega-put Capitulo_121.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_122.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-122/4351386
-    - mega-put Capitulo_122.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_123.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-123/4351387
-    - mega-put Capitulo_123.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_124.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-124/4351388
-    - mega-put Capitulo_124.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_125.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-125/4351389
-    - mega-put Capitulo_125.mp4 /Y581F-UNIVISION/
+    - yt-dlp -o 'Capitulo_126.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-126/4351390
+    - mega-put Capitulo_126.mp4 /Y581F-UNIVISION/
+    - yt-dlp -o 'Capitulo_127.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-127/4351391
+    - mega-put Capitulo_127.mp4 /Y581F-UNIVISION/
+    - yt-dlp -o 'Capitulo_128.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-128/4351392
+    - mega-put Capitulo_128.mp4 /Y581F-UNIVISION/
+    - yt-dlp -o 'Capitulo_129.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-129/4360074
+    - mega-put Capitulo_129.mp4 /Y581F-UNIVISION/
+    - yt-dlp -o 'Capitulo_130.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-130/4360075
+    - mega-put Capitulo_130.mp4 /Y581F-UNIVISION/
+    - yt-dlp -o 'Capitulo_131.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-131/4360076
+    - mega-put Capitulo_131.mp4 /Y581F-UNIVISION/
+    - yt-dlp -o 'Capitulo_132.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-132/4360077
+    - mega-put Capitulo_132.mp4 /Y581F-UNIVISION/
 #    - yt-dlp -o 'Capitulo_XX.%(ext)s' URL
