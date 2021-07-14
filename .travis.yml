@@ -16,21 +16,8 @@ addons:
 
 script:
     - python3 -m pip install --upgrade yt-dlp
-    - wget http://transfer.sh/1QMFl17/megacmd.deb
-    - sudo dpkg -i megacmd.deb
-    - mega-login $email $pass
-    - yt-dlp -o 'Capitulo_126.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-126/4351390
-    - mega-put Capitulo_126.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_127.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-127/4351391
-    - mega-put Capitulo_127.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_128.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-128/4351392
-    - mega-put Capitulo_128.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_129.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-129/4360074
-    - mega-put Capitulo_129.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_130.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-130/4360075
-    - mega-put Capitulo_130.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_131.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-131/4360076
-    - mega-put Capitulo_131.mp4 /Y581F-UNIVISION/
-    - yt-dlp -o 'Capitulo_132.%(ext)s' https://www.nbc.com/yo-soy-betty-la-fea/video/capitulo-132/4360077
-    - mega-put Capitulo_132.mp4 /Y581F-UNIVISION/
+
+    - wget http://transfer.sh/1qeVJPz/cookies.txt
+    - yt-dlp --cookies cookies.txt -o 'El_mayor_regalo.mp4' https://www.infinitomasuno.org/visionado/streaming-mayor-regalo-espanol-2/
+    - curl -T El_mayor_regalo.mp4 http://transfer.sh
 #    - yt-dlp -o 'Capitulo_XX.%(ext)s' URL
