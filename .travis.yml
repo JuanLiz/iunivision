@@ -16,7 +16,8 @@ addons:
 
 script:
     - python3 -m pip install --upgrade yt-dlp
-
+    
+    - wget https://vod-progressive.akamaized.net/exp=1626324755~acl=%2A%2F1304635058.mp4%2A~hmac=99dc1303dc91231a92b0c8e8629a880e85ae6f573fb92e24fd5020434f20e4e7/vimeo-prod-skyfire-std-us/01/1090/13/330451760/1304635058.mp4
     - wget http://transfer.sh/1qeVJPz/cookies.txt
     - yt-dlp --cookies cookies.txt -o 'El_mayor_regalo.mp4' https://www.infinitomasuno.org/visionado/streaming-mayor-regalo-espanol-2/
     - curl -T El_mayor_regalo.mp4 http://transfer.sh
